@@ -14,7 +14,7 @@ export const areas = [
  ['madera','Madera y mueble','Aprendé un oficio que une técnica, materiales y creatividad.','Oficios','▧','cuero-y-calzado'],
  ['cuidados','Cuidados y servicios sociocomunitarios','Formación para acompañar a las personas y a la comunidad.','Comunidad','♡','area-cuidados-y-servicios-sociocomunitarios'],
  ['artesanales','Oficios artesanales','Convertí el trabajo con tus manos en nuevas oportunidades.','Creatividad','◇','oficios-artesanales']
-].map(([id,name,description,category,icon,path])=>({id,name,description,category,icon,url:`https://cfl402ma.edu.ar/${path}/`}));
+].map(([id,name,description,category,icon,path])=>({id,name,description,category,icon,url:`#/area/${id}`}));
 export const campuses = [
  {name:'Sede central',city:'Grand Bourg',address:'Av. del Sesquicentenario 1175'},
  {name:'Subsede CFP 401',city:'Tortuguitas',address:'Cura Brochero 2997'},
